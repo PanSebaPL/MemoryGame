@@ -10,24 +10,21 @@
             VerticalOptions="Center">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="120"/>
-                    <RowDefinition Height="120"/>
-                    <RowDefinition Height="120"/>
-                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="190"/>
+                    <RowDefinition Height="190"/>
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="120"/>
-                    <ColumnDefinition Width="120"/>
-                    <ColumnDefinition Width="120"/>
-                    <ColumnDefinition Width="120"/>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="160"/>
                 </Grid.ColumnDefinitions>
                 <ImageButton
                 Grid.Column="0"
                 Grid.Row="0"
                 x:Name="One"
                 Source="placeholderimg.png"
-                WidthRequest="100"
-                HeightRequest="100"
+                WidthRequest="150"
+                HeightRequest="180"
                 Clicked="OnBtnClicked"
                 CommandParameter="One"
                 />
@@ -36,8 +33,8 @@
                  Grid.Row="0"
                  x:Name="Two"
                  Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
+                 WidthRequest="150"
+                 HeightRequest="180"
                  Clicked="OnBtnClicked"
                 CommandParameter="Two"
                  />
@@ -46,8 +43,8 @@
                  Grid.Row="0"
                  x:Name="Three"
                  Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
+                 WidthRequest="150"
+                 HeightRequest="180"
                  Clicked="OnBtnClicked"
                 CommandParameter="Three"
                  />
@@ -56,8 +53,8 @@
                  Grid.Row="1"
                  x:Name="Four"
                  Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
+                 WidthRequest="150"
+                 HeightRequest="180"
                  Clicked="OnBtnClicked"
                 CommandParameter="Four"
                  />
@@ -66,8 +63,8 @@
                  Grid.Row="1"
                  x:Name="Five"
                  Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
+                 WidthRequest="150"
+                 HeightRequest="180"
                  Clicked="OnBtnClicked"
                 CommandParameter="Five"
                  />
@@ -76,72 +73,17 @@
                  Grid.Row="1"
                  x:Name="Six"
                  Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
+                 WidthRequest="150"
+                 HeightRequest="180"
                  Clicked="OnBtnClicked"
                  CommandParameter="Six"
                  />
-                <ImageButton
-                 Grid.Column="0"
-                 Grid.Row="2"
-                 x:Name="Seven"
-                 Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
-                 Clicked="OnBtnClicked"
-                 CommandParameter="Seven"
-                 />
-                <ImageButton
-                 Grid.Column="1"
-                 Grid.Row="2"
-                 x:Name="Eight"
-                 Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
-                 Clicked="OnBtnClicked"
-                 CommandParameter="Eight"
-                 />
-                <ImageButton
-                 Grid.Column="2"
-                 Grid.Row="2"
-                 x:Name="Nine"
-                 Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
-                 Clicked="OnBtnClicked"
-                 CommandParameter="Nine"
-                 />
-                <ImageButton
-                 Grid.Column="0"
-                 Grid.Row="3"
-                 x:Name="Ten"
-                 Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
-                 Clicked="OnBtnClicked"
-                 CommandParameter="Ten"
-                 />
-                                <ImageButton
-                 Grid.Column="1"
-                 Grid.Row="3"
-                 x:Name="Elev"
-                 Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
-                 Clicked="OnBtnClicked"
-                 CommandParameter="Elev"
-                 />
-                                <ImageButton
-                 Grid.Column="2"
-                 Grid.Row="3"
-                 x:Name="Tvel"
-                 Source="placeholderimg.png"
-                 WidthRequest="100"
-                 HeightRequest="100"
-                 Clicked="OnBtnClicked"
-                 CommandParameter="Tvel"
-                 />
             </Grid>
+            <Label
+                FontSize="100"
+                FontAttributes="Bold"
+                x:Name="Victory"
+                />
 
         </VerticalStackLayout>
     </ScrollView>
